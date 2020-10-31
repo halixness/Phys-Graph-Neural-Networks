@@ -1,3 +1,5 @@
+<img src="https://thumbs.gfycat.com/MeekSmartEasteuropeanshepherd-max-1mb.gif"/>
+
 # GNN-Phys
 Applied GNNs to physics simulation (educational project).
 
