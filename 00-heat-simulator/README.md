@@ -1,7 +1,7 @@
 ## Jacobi Heat Simulator
 
-[![Generic badge](https://img.shields.io/badge/using-PyTorch-orange.svg)](https://shields.io/)
-[![Generic badge](https://img.shields.io/badge/using-DGL-<COLOR>.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/using-PyTorch-orange.svg)](https://pytorch.org/)
+[![Generic badge](https://img.shields.io/badge/using-Deep_Graph_Library-<COLOR>.svg)](https://docs.dgl.ai/)
 
 A simple Graph Neural Network applied to heat propagation simulations ([Jacobi Method](https://en.wikipedia.org/wiki/Jacobi_method)).
 
