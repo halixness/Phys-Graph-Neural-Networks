@@ -1,7 +1,18 @@
 ## Jacobi Heat Simulator
 
-A simple Graph Neural Network applied to heat propagation simulations (simple Jacobi).
+[![Generic badge](https://img.shields.io/badge/using-PyTorch-orange.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/using-DGL-<COLOR>.svg)](https://shields.io/)
+
+A simple Graph Neural Network applied to heat propagation simulations ([Jacobi Method](https://en.wikipedia.org/wiki/Jacobi_method)).
 
 | Real          | Prediction    |
 | ------------- |:-------------:|
 | <img src="https://github.com/halixness/GNN-Phys/blob/main/00-heat-simulator/animation/real/real.gif" width="250" height="250"/>      | <img src="https://github.com/halixness/GNN-Phys/blob/main/00-heat-simulator/animation/prediction/prediction.gif" width="250" height="250"/> |
+
+## Architecture 
+
+We created a simple GNN consisting in:
+
+- GraphConv Layer
+- ReLU Activation
+- GraphConv Layer
