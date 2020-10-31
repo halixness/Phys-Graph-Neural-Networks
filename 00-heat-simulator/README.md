@@ -22,3 +22,11 @@ For each timestep, the heatmap is transformed into a Graph, where each node is a
 ## Dataset
 
 The dataset has been generated with a heat simulator written in C. The simulation is represented by ~60 timesteps, each one encoded as a 510x510 grid of floats ranging from 0 to 1 (heatmap values).
+
+## Improvements
+
+Besides the simplicity of this project, there are some improvements that could be applied, such as:
+- Considering the other 4 diagonal neighbours for each heat cell (top left, top right, bottom left, bottom right)
+- Applying edge weights
+- Training the network on different scenarios with heat propagatin in multiple patterns
+- Doing some fine tuning to test out a better network configuration
