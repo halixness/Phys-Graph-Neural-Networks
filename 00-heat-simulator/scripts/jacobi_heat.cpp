@@ -1,12 +1,6 @@
 /*
-heat.c
 
-# didattica-linux
 gcc -O2 heat.c -o heat
-
-# HPC cluster
-module load intel
-icc -O2 heat.c -o heat
 
 ./heat -h
 ./heat -r 4096 -c 4096
